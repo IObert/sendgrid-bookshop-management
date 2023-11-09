@@ -1,0 +1,10 @@
+GET http://localhost:4004/rest/catalog/Books
+
+### Submit an order
+POST http://localhost:4004/rest/catalog/submitOrder HTTP/1.1
+Content-Type: application/json
+
+{
+   "book": 1,
+   "quantity": 95
+}
